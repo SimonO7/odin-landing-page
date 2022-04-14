@@ -13,7 +13,7 @@ body {
 .footer {
    background-color: #1F2937; 
    flex: 1;
-   padding: 0 150px;
+   padding: 0 300px;
    
 }
 
@@ -37,6 +37,39 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    border: 2px solid yellow;
+    flex: 1;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.hero-pic {
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
 }
 
 .gallery {
