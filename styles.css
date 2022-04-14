@@ -1,0 +1,9 @@
+/*Stylesheet for landing page */
+
+body {
+    display: flex;
+}
+
+.top {
+   background-color: #1F2937; 
+}
