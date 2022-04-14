@@ -13,8 +13,7 @@ body {
 .footer {
    background-color: #1F2937; 
    flex: 1;
-   padding: 0 300px;
-   
+   padding: 0 200px;
 }
 
 .header {
@@ -40,17 +39,19 @@ a {
 }
 
 .hero {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    padding-top: 70px;
 }
 
 .hero-text {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     flex: 1;
     flex-wrap: wrap;
     max-width: 500px;
+    margin-right: 100px;
 }
 
 .hero-main-text {
@@ -67,9 +68,16 @@ a {
 }
 
 .hero-pic {
-    border: 2px solid red;
+    justify-content: center;
+}
+
+.image-placeholder {
+    background-color: gray;
+    display: flex;
     width: 500px;
     height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery {
