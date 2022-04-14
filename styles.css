@@ -2,8 +2,51 @@
 
 body {
     display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
 }
 
-.top {
+.top, 
+.footer {
    background-color: #1F2937; 
+   flex: 1;
+   padding: 0 150px;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.gallery {
+    flex: 1;
+}
+
+.quote {
+    flex: 1;
+}
+
+.signup {
+    flex: 1;
 }
