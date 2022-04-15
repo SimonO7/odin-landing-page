@@ -39,7 +39,6 @@ a {
 }
 
 .hero {
-    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +46,6 @@ a {
 }
 
 .hero-text {
-    /* border: 2px solid yellow; */
     flex: 1;
     flex-wrap: wrap;
     max-width: 500px;
@@ -78,6 +76,15 @@ a {
     height: 200px;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 6px 34px;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
 }
 
 .gallery {
