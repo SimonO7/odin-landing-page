@@ -13,7 +13,10 @@ body {
 .footer {
    background-color: #1F2937; 
    flex: 1;
-   padding: 0 200px;
+}
+
+.top {
+    padding: 0 300px 100px 300px;
 }
 
 .header {
@@ -97,8 +100,9 @@ button {
 .gallery h1 {
     text-align: center;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     color: #1F2937;
+    padding: 20px;
 }
 
 .cards {
