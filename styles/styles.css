@@ -89,7 +89,9 @@ button {
 
 .gallery {
     flex: 1;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
 }
 
 .gallery h1 {
@@ -97,6 +99,31 @@ button {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card div{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card p {
+    text-align: center;
 }
 
 .quote {
