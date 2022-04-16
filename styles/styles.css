@@ -179,14 +179,15 @@ a {
     padding: 15px;
 }
 
-.signup-box-text {
-    font-size: 16px;
-    color: #E5E7EB;
-}
-
 .signup-title {
     font-size: 24px;
+    color: #F9FAF8;
     font-weight: 500;
+}
+
+.signup-text {
+    font-size: 16px;
+    color: #E5E7EB;
 }
 
 .signup button {
