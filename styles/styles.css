@@ -1,5 +1,5 @@
 /*Stylesheet for landing page */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 
 body {
     display: flex;
@@ -87,7 +87,7 @@ a {
     font-size: 18px;
     padding: 6px 34px;
     border-radius: 8px;
-    color: white;
+    color: #E5E7EB;
     background-color: #3882F6;
     border: 1px solid #3882F6;
 }
@@ -166,8 +166,33 @@ a {
 }
 
 .signup-box {
+    display: flex;
     background-color: #3882F6;
     width: 1000px;
     height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.signup-box-text {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.signup button {
+    border: 1px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    padding: 6px 30px;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
