@@ -34,7 +34,7 @@ body {
 .header-links {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 25px;
 }
 
 a {
@@ -76,6 +76,7 @@ a {
 
 .image-placeholder {
     background-color: gray;
+    color: #E5E7EB;
     display: flex;
     width: 500px;
     height: 200px;
@@ -90,6 +91,7 @@ a {
     color: #E5E7EB;
     background-color: #3882F6;
     border: 1px solid #3882F6;
+    flex-shrink: 0;
 }
 
 .gallery {
@@ -98,6 +100,7 @@ a {
     justify-content: center;
     align-content: center;
     margin: 10px 50px;
+    padding-bottom: 50px;
 }
 
 .gallery h1 {
@@ -194,5 +197,12 @@ a {
     padding: 6px 30px;
     border-radius: 8px;
     font-weight: bold;
+    flex-shrink: 0;
+}
+
+.footer {
+    color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
 }
 
