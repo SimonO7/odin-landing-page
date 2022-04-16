@@ -83,7 +83,7 @@ a {
     align-items: center;
 }
 
-button {
+.hero button {
     font-size: 18px;
     padding: 6px 34px;
     border-radius: 8px;
@@ -159,5 +159,15 @@ button {
 }
 
 .signup {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
+
+.signup-box {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+}
+
