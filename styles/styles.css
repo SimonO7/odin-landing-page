@@ -111,6 +111,7 @@ button {
 .cards {
     display: flex;
     justify-content: center;
+    align-content: center;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -140,7 +141,7 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 100px 300px;
+    padding: 100px 500px;
 }
 
 .quote-text {
